@@ -5,6 +5,8 @@ import NavBar from "./components/NavBar";
 import AllPlayers from "./components/AllPlayers";
 import NewPlayerForm from "./components/NewPlayerForm";
 import SinglePlayer from "./components/SinglePlayer";
+import Home from './components/Home';
+
 
 function App() {
   const [players, setPlayers] = useState([]);
